@@ -7,11 +7,13 @@ import jakarta.persistence.Id;
 public class User {
 	@Id
 	private Long id;
+	
 	private String username;
 	private String email;
 	private String password;
 	private String dob;
 	private String gender;
+	
 	public User() {
 		super();
 		// TODO Auto-generated constructor stub
